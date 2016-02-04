@@ -3,11 +3,11 @@
 	Template Author : pixelhint.com
 	Author Email    : contact@pixelhint.com
 	Template Name   : Crafty
-	
-	
+
+
 	*****************************************
-	
-	
+
+
 	- Header
 	- Billboard
 	- Services/features
@@ -16,7 +16,7 @@
 	- Take To Action section
     - footer
 	- Responsive code
-	
+
 */
 
 
@@ -268,7 +268,7 @@ header ul.social li a.gplus{
   margin-top:20px;
   transform:scale(2);
   transition:.3s all ease;
-} 
+}
 .feature .details_exp{
     display: block;
     width: 69.36416184971098%;
@@ -292,6 +292,28 @@ header ul.social li a.gplus{
     font-size: 15px;
     line-height: 22px;
 
+}
+.features .videotext{
+	display: block;
+	width: 40.83333333333333%;
+	height: auto;
+	float: left;
+	margin-left: 0.666666666666667%;
+	margin-right: 2.666666666666667%;
+	margin-bottom: 100px;
+}
+.features .videotext p{
+	margin-bottom: 20px;
+	color: #9e9e9e;
+	font-family: "lato_regular", arial;
+	font-size: 15px;
+	line-height: 22px;
+
+}
+
+.video {
+	margin-bottom: 20px;
+	align-items: center;
 }
 
 .feature a{
@@ -414,8 +436,19 @@ header ul.social li a.gplus{
     width: 100%;
     overflow: hidden;
     background: #3b3b3b;
-}
 
+}
+.videoinfo{
+	width: 100%;
+	background: #f7f7f7;
+	padding-left: 50px;
+}
+.video_pic{
+	display: block;
+	width: 50%;
+	height: 405px;
+	float: left;
+}
 .info_pic{
     display: block;
     width: 50%;
@@ -432,10 +465,10 @@ header ul.social li a.gplus{
 .info_pic2{
     display: block;
     width: 100%;
-    
+
     float: left;
     background: url('../img/noticia.png') no-repeat;
-   
+
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -586,6 +619,7 @@ a{
         width: 100%;
     }
 
+
     .info_details{
         height: auto;
         padding: 10px 0;
@@ -599,6 +633,25 @@ a{
         text-align: center;
         margin: 40px auto;
     }
+
+		.videotext p{
+        max-width: 100%;
+        display: block;
+        text-align: left;
+        margin: 20px auto;
+    }
+}
+
+@media (max-width:1150px){
+    .video_pic{
+			width: 100%;
+			margin-left: 20%;
+		}
+		.videotext{
+			width: 100%;
+			padding-left: 20%;
+		}
+
 }
 
 
@@ -611,6 +664,7 @@ a{
         width: 80%;
         margin: 0 auto;
     }
+
 }
 
 
@@ -641,14 +695,14 @@ a{
         display: none;
     }
     header nav{
-        border-bottom-left-radius: 2px; 
-        -webkit-border-bottom-left-radius: 2px; 
-        -moz-border-bottom-left-radius: 2px; 
-        -o-border-bottom-left-radius: 2px; 
-        border-bottom-right-radius: 2px; 
-        -webkit-border-bottom-right-radius: 2px; 
-        -moz-border-bottom-right-radius: 2px; 
-        -o-border-bottom-right-radius: 2px; 
+        border-bottom-left-radius: 2px;
+        -webkit-border-bottom-left-radius: 2px;
+        -moz-border-bottom-left-radius: 2px;
+        -o-border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        -webkit-border-bottom-right-radius: 2px;
+        -moz-border-bottom-right-radius: 2px;
+        -o-border-bottom-right-radius: 2px;
     }
     header nav.show_menu{
         display: block;
@@ -681,6 +735,12 @@ a{
     {
         margin-right: 0!important;
     }
+		.video_pic{
+			margin-left: 0%!important;
+			width: 50%;
+			display: none;
+		}
+
 }
 
 @media (max-width:500px){
